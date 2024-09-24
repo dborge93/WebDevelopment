@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDevelopment</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!--Encabezado del sitio-->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="about"></a>My Portalio</li>
+                <li><a href="Projects"></a>Projects</li>
+                <li><a href="skills"></a>Skills</li>
+                <li><a href="contact"></a>Contact</li>
+            </ul>
+            <h1 class="header__tittle" id="color1">My Portalio</h1>
+        </nav>
+    </header>
+    <!--Seccion Principal-->
+    <main class="main">
+        <section id="about" class="section about">
+            <h2>Sobre mi</h2>
+            <div class="about__content">
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur veritatis vel adipisci totam
+                voluptatem necessitatibus atque corrupti, vitae consequuntur culpa doloribus perferendis ea
+                exercitationem esse mollitia sit velit fugiat?</p>
+            <img src="image/image-25.png" alt="Foto de Darwin Borge" class="about__img">
+        </div>
+        </section>
+
+        <!--Seccion de projectos-->
+        <section id="projects" class="section project">
+            <h2>My Projects</h2>
+            <div class="project__grid"></div>
+            <article class="project">
+                <h3>Desarrollo de aplicaciones Web</h3>
+                <img src="image/image-25.png" alt="Cambiar imagen later" class="project__img">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, reiciendis. Animi fugit alias
+                    laborum quae incidunt ipsa a perferendis ipsum dolorem, ab excepturi odio velit, repudiandae porro,
+                    debitis asperiores? Mollitia?</p>
+                <a href="link-project1" target="_blank">Ver Project</a>
+            </article>
+            <article class="section project">
+                <h3>Especialista de Soporte en la Nube</h3>
+                <img src="image/image-25.png" alt="Cambiar la imagen"class="prohect__img">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, veniam? Veniam autem modi,
+                    exercitationem consequuntur, possimus nobis culpa beatae voluptates asperiores voluptatibus aperiam
+                    eligendi repudiandae hic tempore amet ab fugit.</p>
+                <a href="link-project2" target="_blank">Ver Project</a>
+            </article>
+            <article class="section project">
+                <h3>Costumer Services</h3>
+                <img src="image/image-25.png" alt="Cambiar la imagen later"project__img>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi unde asperiores, deleniti rem et cum
+                    doloribus ad necessitatibus dolorum, dolor voluptatem? Optio animi non, voluptate repudiandae alias
+                    voluptates molestiae magni?</p>
+                <a href="link-project3" target="_blank">Ver Project</a>
+            </article>
+        </div>
+        </section>
+        <!--Seccion de mis habilidades-->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.JS</li>
+            </ul>
+        </section>
+        <!--Seccion de contacto-->
+        <section id="contact">
+            <h2>Contactos</h2>
+            <form action="enviar-mensaje.php" method="post">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electronico: </label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Darwin Borge. Todos los derechos reservados</p>
+        <li><a href="https://www.linkedin.com/in/darwin-ariel-borge-garcia-3440b5141/" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:dborge93@gmail.com">Correo Electronico</a></li>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

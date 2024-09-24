@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #4f4f4f;
+    color: #222;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #4caf50;
+}
+
+#color1{
+    color: aqua;
+}
+
+p.parrafo{
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5rem;
+    text-align: center;
+}
+
+.nav__list{
+ display: flex;   
+ justify-content: center;
+ list-style: none;
+ padding: 0;
+}
+
+.nav__list li{
+   margin: 0  1rem;
+}
+
+.header__tittle{
+font-size: 2.5rem ;  
+margin-top: 1rem;
+}
+
+.main{
+    padding: 2rem;
+}
+
+.section{
+    margin-bottom: 4rem;
+}
+
+/*Seccion sobre mi*/
+.about__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about__img{
+    margin-top: 1rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Seccion projectos*/
+.project__img{
+    width: 100%;
+}
