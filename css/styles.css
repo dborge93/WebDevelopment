@@ -74,6 +74,7 @@ margin-top: 1rem;
 }
 
 /*Seccion projectos*/
-.project__img{
-    width: 100%;
+.project__grid{
+    display: grid;
+    grid-template-columns: auto;
 }
