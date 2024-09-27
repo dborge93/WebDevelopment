@@ -1,104 +1,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebDevelopment</title>
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebDevelopment</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <!--Encabezado del sitio-->
-        <nav class="nav">
-            <ul class="nav__list">
-                <li><a href="about"></a>About me</li>
-                <li><a href="Projects"></a>Projects</li>
-                <li><a href="skills"></a>Skills</li>
-                <li><a href="contact"></a>Contact</li>
-            </ul>
-            <h1 class="header__tittle">Online Portofolio</h1>
-        </nav>
-    </header>
-    <!--Seccion Principal-->
-    <main class="main">
-        <section id="about" class="section about">
-            <h2>I am Darwin Borge</h2>
-            <div class="about__content">
-            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur veritatis vel adipisci totam
-                voluptatem necessitatibus atque corrupti, vitae consequuntur culpa doloribus perferendis ea
-                exercitationem esse mollitia sit velit fugiat?</p>
-            <img src="image/image-25.png" alt="Foto de Darwin Borge" class="about__img">
-        </div>
-        </section>
+  <header class="header">
+    <!--Encabezado del sitio-->
+    <nav class="nav">
+      <h1 class="header__tittle">Online Portofolio</h1>
+      <ul class="nav__list">
+        <li><a href="about"></a>About me</li>
+        <li><a href="Projects"></a>Projects</li>
+        <li><a href="skills"></a>Skills</li>
+        <li><a href="contact"></a>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <!--Seccion Principal-->
+  <main class="main">
+    <section id="about" class="section about">
+      <h2 class="aling__h2">I am Darwin Borge</h2>
+      <img src="image/image-25.png" alt="Foto de Darwin Borge" class="about__img">
+      <div class="about__content">
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, tenetur veritatis vel
+          adipisci totam
+          voluptatem necessitatibus atque corrupti, vitae consequuntur culpa doloribus perferendis ea
+          exercitationem esse mollitia sit velit fugiat?</p>
+      </div>
+    </section>
+    <!--Seccion de projectos-->
+    <section id="projects" class="section project">
+      <h2 class="aling__h2">Projects</h2>
+      <div class="project__grid">
+        <article class="project">
+          <h3>Desarrollo de aplicaciones Web</h3>
+          <img src="image/image-25.png" alt="Cambiar imagen later" class="project__img">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, reiciendis. Animi fugit alias
+            laborum quae incidunt ipsa a perferendis ipsum dolorem, ab excepturi odio velit, repudiandae porro,
+            debitis asperiores? Mollitia?</p>
+          <a href="link-project1" target="_blank">Ver Project</a>
+        </article>
+        <article class="section project">
+          <h3>Especialista de Soporte en la Nube AWS Services</h3>
+          <img src="image/image-25.png" alt="Cambiar la imagen" class="project__img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, veniam? Veniam autem modi,
+            exercitationem consequuntur, possimus nobis culpa beatae voluptates asperiores voluptatibus aperiam
+            eligendi repudiandae hic tempore amet ab fugit.</p>
+          <a href="link-project2" target="_blank">Ver Project</a>
+        </article>
+        <article class="section project">
+          <h3>Costumer Services</h3>
+          <img src="image/image-25.png" alt="Cambiar la imagen later" class="project__img">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi unde asperiores, deleniti rem et cum
+            doloribus ad necessitatibus dolorum, dolor voluptatem? Optio animi non, voluptate repudiandae alias
+            voluptates molestiae magni?</p>
+          <a href="link-project3" target="_blank">Ver Project</a>
+        </article>
+      </div>
+    </section>
+    <!--Seccion de mis habilidades-->
+    <section id="skills" class="section list">
+      <h2 class="aling__h2">Skills and Interest</h2>
+      <ul class="skills__list">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.JS</li>
+        <li>SQL Server</li>
+      </ul>
+    </section>
+    <!--Seccion de contacto-->
+    <section id="contact">
+      <h2 class="aling__h2">Contact</h2>
+      <form action="enviar-mensaje.php" method="post" class="contact__form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
 
-        <!--Seccion de projectos-->
-        <section id="projects" class="section project">
-            <h2>Projects</h2>
-            <div class="project__grid"></div>
-            <article class="project">
-                <h3>Desarrollo de aplicaciones Web</h3>
-                <img src="image/image-25.png" alt="Cambiar imagen later" class="project__img">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, reiciendis. Animi fugit alias
-                    laborum quae incidunt ipsa a perferendis ipsum dolorem, ab excepturi odio velit, repudiandae porro,
-                    debitis asperiores? Mollitia?</p>
-                <a href="link-project1" target="_blank">Ver Project</a>
-            </article>
-            <article class="section project">
-                <h3>Especialista de Soporte en la Nube AWS Services</h3>
-                <img src="image/image-25.png" alt="Cambiar la imagen"class="project__img">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, veniam? Veniam autem modi,
-                    exercitationem consequuntur, possimus nobis culpa beatae voluptates asperiores voluptatibus aperiam
-                    eligendi repudiandae hic tempore amet ab fugit.</p>
-                <a href="link-project2" target="_blank">Ver Project</a>
-            </article>
-            <article class="section project">
-                <h3>Costumer Services</h3>
-                <img src="image/image-25.png" alt="Cambiar la imagen later" class="project__img">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi unde asperiores, deleniti rem et cum
-                    doloribus ad necessitatibus dolorum, dolor voluptatem? Optio animi non, voluptate repudiandae alias
-                    voluptates molestiae magni?</p>
-                <a href="link-project3" target="_blank">Ver Project</a>
-            </article>
-        </div>
-        </section>
-        <!--Seccion de mis habilidades-->
-        <section id="skills" class="section list">
-            <h2>Skills and Interest</h2>
-            <ul class="skills__list">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.JS</li>
-                <li>SQL Server</li>
-            </ul>
-        </section>
-        <!--Seccion de contacto-->
-        <section id="contact">
-            <h2>Contact</h2>
-            <form action="enviar-mensaje.php" method="post" class="contact__form">
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" required>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required>
 
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" required>
+        <label for="messaje">Messaje: </label>
+        <textarea name="messaje" id="messaje" required></textarea>
 
-                <label for="messaje">Messaje: </label>
-                <textarea name="messaje" id="messaje" required></textarea>
-
-                <button type="submit">Send</button>
-            </form>
-        </section>
-    </main>
-    <footer class="footer">
-        <p>&copy; 2024 Darwin Borge. Todos los derechos reservados</p>
-        <ul class="footer__links">
-            <li><a href="https://www.linkedin.com/in/darwin-ariel-borge-garcia-3440b5141/" target="_blank">LinkedIn</a></li>
-            <li><a href="mailto:dborge93@gmail.com">Correo Electronico</a></li>
-        </ul>
-    </footer>
-    <script src="script.js"></script>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Darwin Borge. Todos los derechos reservados</p>
+    <ul class="footer__links">
+      <li><a href="https://www.linkedin.com/in/darwin-ariel-borge-garcia-3440b5141/" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:dborge93@gmail.com">Correo Electronico</a></li>
+    </ul>
+  </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
