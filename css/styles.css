@@ -6,20 +6,128 @@
 }
 
 body{
-    font-family: sans-serif;
-    background-color: #4f4f4f;
-    color: #222;
+    font-family: Poppins;
+    background-color: #F4F6F9 ;
+    color: #333333;
     line-height: 1.6;
 }
 
+    .poppins-thin {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
 a{
     text-decoration: none;
-    color: #4caf50;
+    color: #777777;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #2A3D66;
+    color: #FFFFFF;
     padding: 1rem;
     text-align: center;
 }
@@ -82,13 +190,17 @@ text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.project_nav {
+    list-style: none;
+}
+
 .aling__h2{
     text-align: center;
 }
 /*Habilildades*/
 
 .skills__list{
-    display: flex;
+    display: flexbox;
     justify-content: center;
     gap: 1rem;
     list-style: none;
@@ -96,9 +208,9 @@ text-align: left;
 
 .skills__list li{
 padding: 0.5rem 1rem;
-background-color: #4CAF50;
+background-color: #1c7c6f;
 color: #fff;
-border-radius: 5px;
+border-radius: 10px;
 list-style: none;
 }
 /*Contacto*/
@@ -109,16 +221,17 @@ list-style: none;
 }
 
 .contact__form input, .contact__form textarea{
-    padding: 0.80rem;
+    padding: 1rem;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 /* Footer */
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #1E2A47;
+    color: #B0B0B0;
     text-align: center;
     padding: 1.5rem 0;
+    list-style: none;
 }
 
 .footer__links {
@@ -129,7 +242,7 @@ list-style: none;
 }
 
 .footer__links a {
-    color: #fff;
+    color: #1E2A47;
 }
 
 
